@@ -16,9 +16,9 @@ body {
     align-items: center;
 }
 
-#lodoDoSite {
+/* #lodoDoSite {
 
-}
+} */
 
 #imgLogoSite {
     width: 140px;
@@ -43,4 +43,57 @@ body {
     justify-content: center;
     border-radius: 10px;
     cursor: pointer;
+}
+
+#sectionTextos {
+    margin-top: 100px;
+    margin-bottom: 121px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    color: grey;
+    width: 50%;
+    display: inline-block;
+} 
+
+strong {
+    color: black;
+    font-size: 45px;
+}
+
+#divImagens {
+    position: absolute;
+    right: 160px;
+}
+
+#divImagens img {
+    position: absolute;
+    width: 45px;
+}
+
+#imgsSecundarias {
+    position: relative;
+    bottom: 37px;
+    display: inline-block;
+    right: 65px;
+}
+
+#myTextos {
+    display: inline-block;
+}
+
+#myTextos p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#myTextos a {
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    cursor: grab;
+    color: blue;
 }
