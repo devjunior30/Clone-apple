@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #D3D3D3;
 }
 
 #sectionLinks {
@@ -50,6 +51,7 @@ body {
     margin-bottom: 121px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 h1 {
@@ -65,35 +67,61 @@ strong {
 }
 
 #divImagens {
-    position: absolute;
-    right: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#divImagens img {
-    position: absolute;
-    width: 45px;
+#divImagens aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
-
-#imgsSecundarias {
-    position: relative;
-    bottom: 37px;
+#myFirstImages, #myTextos {
     display: inline-block;
-    right: 65px;
 }
+
+.character {
+    width: 50px;
+    border-radius: 20px;
+    border: 4px solid black;
+} 
+
+/* #myFirstImages img  {
+    position: absolute;
+} */
 
 #myTextos {
-    display: inline-block;
+    margin-left: 10px;
 }
 
-#myTextos p {
-    font-size: 18px;
-    font-weight: 600;
+#myTextos p, a {
+    font-size: 17px;
+    text-decoration: none;
 }
 
 #myTextos a {
-    font-size: 18px;
-    line-height: 24px;
-    text-decoration: none;
-    cursor: grab;
     color: blue;
+    cursor: grab;
+}
+
+#maps {
+    display: inline-block;
+    width: 50px;
+    border-radius: 20px;
+    border: 4px solid black;
+}
+
+#myTexts2 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#myTexts2 p,a {
+    font-size: 17px;
+    text-decoration: none;
+} #myTexts2 a {
+    color: blue;
+    cursor: grab;
 }
