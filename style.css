@@ -33,17 +33,18 @@ body {
 }
 
 .material-icons {
-    font-size: 28px;
-    color: red;
-    margin-right: 34px;
-    background-color: black;
-    width: 47px;
-    height: 51px;
+    font-size: 26px;
+    color: black;
+    margin-right: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.material-icons:hover {
+    background-color: red;   
 }
 
 #sectionTextos {
@@ -96,7 +97,7 @@ strong {
     margin-left: 10px;
 }
 
-#myTextos p, a {
+#myTextos p, .link {
     font-size: 17px;
     text-decoration: none;
 }
@@ -118,10 +119,57 @@ strong {
     margin-left: 10px;
 }
 
-#myTexts2 p,a {
-    font-size: 17px;
-    text-decoration: none;
-} #myTexts2 a {
+#myTexts2 .link {
     color: blue;
     cursor: grab;
+}
+
+main {
+    display: block;
+}
+
+#sessãoDeImagens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#sessãoDeImagens div {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 29px;
+    padding: 0 20px 0 20px;
+    margin-bottom: 50px;
+}
+
+#sessãoDeImagens .linksDeConhecimento {
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+    color: blue;
+}
+
+#sessãoDeImagens .imgsDeConhecimento {
+   
+}
+
+.seta {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 15px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.setaEsquerda {
+    left: 0;
+}
+
+.setaDireita {
+    right: 0;
 }
