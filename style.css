@@ -174,85 +174,35 @@ main {
     right: 0;
 }
 
-#elementos {
-    display: block;
-    width: 100%;
-    position: relative;
-}
-
-
-#divH2 {
-    display: block;
-}
-
-#divH2 h2 {
-    font-size: 35px;
-    color: #000000;
-    font-style: italic;
-    margin-bottom: 31px;
-}
-
-#divH2 span {
-    color: #696969;
-    font-size: 37px;
-}
-
-#elementos main {
-    width: 100%;
+#mainElementos {
     overflow-x: auto;
     white-space: nowrap;
-    position: absolute;
+    margin-top: 60px;
 }
 
-#elementos #iphone15,
-#appleWatch,
-#macBook,
-#ofertas,
-#acessorios {
+#mainElementos .myMenu{
     display: inline-block;
-    margin-right: 120px;
+    border-radius: 54px;
 }
 
-.myMenu {
-    width: 430px;
-    height: 465px;
-    border-radius: 29px;
-    background-color: black;
+#iphone15 {
+    background-color: #000000;
+    width: auto;
+    height: auto;
 }
 
-.myMenu div {
-    position: relative;
-    top: 50px;
-    margin-left: 31px;
-    line-height: 42px;
+#filha {
+    width: 280px;
+    padding: 35px;
 }
 
-.myMenu p,
-span {
-    font-size: 22px;
+.colors {
+    font-size: 20px;
     color: #ffffff;
-    font-weight: 600;
 }
 
-.myMenu img {
-    width: 430px;
-    height: 465px;
-    border-radius: 44px;
-}
-
-#ofertas, #macBook {
-    background-color: #ffffff;
-}
-
-#ofertas, #macBook p, span {
-    color: black;
-}
-
-#imgOferta {
-    width: 430px;
-    height: 456px;
-}
-
-#text {
-    width: 150px;
+.imagesColors {
+    width: 422px;
+    padding-left: 23px;
+    padding-right: 23px;
 }
